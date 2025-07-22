@@ -48,3 +48,16 @@ Bu dosyayı Belge-colorizer-sdxl klasörünün içine koy (yani app.py ile aynı
 
 python app.py
 Tarayıcıda otomatik açılır: http://127.0.0.1:7860
+
+
+6. KULLANIM
+
+    Görsel yükle → siyah-beyaz döküman, belge vs.
+
+    Prompt kutusu boşsa şunu yaz:
+
+realistic color scan of a passport, natural ink, detailed paper texture, colored stamps
+
+Denoising Strength → 0.5 önerilir
+
+“Renklendir” butonuna tıkla
