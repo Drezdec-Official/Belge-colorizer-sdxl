@@ -30,7 +30,7 @@ cd Belge-colorizer-sdxl
 
 3. .safetensors MODELİNİ YERLEŞTİR
 
-    CivitAI’den indirdiğin şu dosyayı:
+CivitAI’den indirdiğin şu dosyayı: https://civitai.com/models/277058?modelVersionId=1920523
 
 epiCRealismXL_vxviiCrystalclear.safetensors
 
