@@ -17,3 +17,38 @@ python app.py
 ```
 
 3. Upload a black-and-white image and click "Renklendir".
+
+
+Kurulu olması gereken yazılımlar:
+1-Python 3.10
+
+2. PROJEYİ KLONLA
+PowerShell veya CMD’yi aç:
+
+git clone https://github.com/Drezdec-Official/Belge-colorizer-sdxl.git
+cd Belge-colorizer-sdxl
+
+3. .safetensors MODELİNİ YERLEŞTİR
+
+    CivitAI’den indirdiğin şu dosyayı:
+
+epiCRealismXL_vxviiCrystalclear.safetensors
+
+Bu dosyayı Belge-colorizer-sdxl klasörünün içine koy (yani app.py ile aynı klasöre).
+
+
+4. GEREKLİ KÜTÜPHANELERİ KUR
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
+pip install diffusers transformers accelerate safetensors
+
+    🔁 cu118 → CUDA 11.8 sürümüdür, RTX 3080 için ideal.
+
+5. UYGULAMAYI BAŞLAT
+
+python app.py
+
+Tarayıcıda otomatik açılır:
+
+http://127.0.0.1:7860
