@@ -37,13 +37,12 @@ epiCRealismXL_vxviiCrystalclear.safetensors
 Bu dosyayı Belge-colorizer-sdxl klasörünün içine koy (yani app.py ile aynı klasöre).
 
 
-4. GEREKLİ KÜTÜPHANELERİ KUR
+4 GEREKLİ KÜTÜPHANELERİ KUR
 
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install -r requirements.txt
-pip install diffusers transformers accelerate safetensors
+    🔁 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+    🔁 pip -r requirements.txt
+    🔁 pip diffusers transformers accelerate safetensors
 
-    🔁 cu118 → CUDA 11.8 sürümüdür, RTX 3080 için ideal.
 
 5. UYGULAMAYI BAŞLAT
 
