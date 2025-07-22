@@ -1,4 +1,4 @@
-# Passport Colorizer SDXL
+# ofkoysu | Drezdec | Documents Colorizer SDXL
 
 A simple Gradio app to colorize black and white passport scans using Stable Diffusion XL and epiCRealism model.
 
