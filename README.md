@@ -47,7 +47,4 @@ Bu dosyayı Belge-colorizer-sdxl klasörünün içine koy (yani app.py ile aynı
 5. UYGULAMAYI BAŞLAT
 
 python app.py
-
-Tarayıcıda otomatik açılır:
-
-http://127.0.0.1:7860
+Tarayıcıda otomatik açılır: http://127.0.0.1:7860
